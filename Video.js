@@ -30,6 +30,8 @@ export default class Video extends Component {
     this._root.setNativeProps(nativeProps);
   }
 
+  console.log('Test')
+
   toTypeString(x) {
     switch (typeof x) {
       case 'object':
