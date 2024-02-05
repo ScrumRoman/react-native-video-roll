@@ -45,6 +45,7 @@ export default class Video extends Component {
     }
   }
 
+  console.log('test 2')
   stringsOnlyObject(obj) {
     const strObj = {};
 
